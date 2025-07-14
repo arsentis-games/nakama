@@ -17,8 +17,8 @@ package server
 import (
 	"testing"
 
+	"github.com/arsentis-games/nakama-common/api"
 	"github.com/gofrs/uuid/v5"
-	"github.com/heroiclabs/nakama-common/api"
 	"github.com/stretchr/testify/assert"
 )
 

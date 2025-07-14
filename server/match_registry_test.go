@@ -19,15 +19,16 @@ import (
 	"context"
 	"encoding/gob"
 	"fmt"
+	"strings"
+	"testing"
+
+	"github.com/arsentis-games/nakama-common/runtime"
 	"github.com/blugelabs/bluge"
 	"github.com/gofrs/uuid/v5"
-	"github.com/heroiclabs/nakama-common/runtime"
 	"github.com/stretchr/testify/require"
 	"go.uber.org/atomic"
 	"go.uber.org/zap"
 	"google.golang.org/protobuf/types/known/wrapperspb"
-	"strings"
-	"testing"
 )
 
 func TestEncode(t *testing.T) {

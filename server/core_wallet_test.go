@@ -21,8 +21,8 @@ import (
 	"sync"
 	"testing"
 
+	"github.com/arsentis-games/nakama-common/runtime"
 	"github.com/gofrs/uuid/v5"
-	"github.com/heroiclabs/nakama-common/runtime"
 	"github.com/stretchr/testify/assert"
 )
 

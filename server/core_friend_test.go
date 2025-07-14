@@ -2,10 +2,11 @@ package server
 
 import (
 	"context"
-	"github.com/gofrs/uuid/v5"
-	"github.com/heroiclabs/nakama-common/api"
-	"github.com/stretchr/testify/assert"
 	"testing"
+
+	"github.com/arsentis-games/nakama-common/api"
+	"github.com/gofrs/uuid/v5"
+	"github.com/stretchr/testify/assert"
 )
 
 func TestServer_ListFriendsOfFriends(t *testing.T) {

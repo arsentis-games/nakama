@@ -24,13 +24,14 @@
 package apigrpc
 
 import (
+	reflect "reflect"
+
+	api "github.com/arsentis-games/nakama-common/api"
 	_ "github.com/grpc-ecosystem/grpc-gateway/v2/protoc-gen-openapiv2/options"
-	api "github.com/heroiclabs/nakama-common/api"
 	_ "google.golang.org/genproto/googleapis/api/annotations"
 	protoreflect "google.golang.org/protobuf/reflect/protoreflect"
 	protoimpl "google.golang.org/protobuf/runtime/protoimpl"
 	emptypb "google.golang.org/protobuf/types/known/emptypb"
-	reflect "reflect"
 )
 
 const (

@@ -24,13 +24,14 @@
 package rtapi
 
 import (
-	api "github.com/heroiclabs/nakama-common/api"
+	reflect "reflect"
+	sync "sync"
+
+	api "github.com/arsentis-games/nakama-common/api"
 	protoreflect "google.golang.org/protobuf/reflect/protoreflect"
 	protoimpl "google.golang.org/protobuf/runtime/protoimpl"
 	timestamppb "google.golang.org/protobuf/types/known/timestamppb"
 	wrapperspb "google.golang.org/protobuf/types/known/wrapperspb"
-	reflect "reflect"
-	sync "sync"
 )
 
 const (

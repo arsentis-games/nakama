@@ -22,10 +22,10 @@ import (
 	"regexp"
 	"time"
 
+	"github.com/arsentis-games/nakama-common/api"
+	"github.com/arsentis-games/nakama-common/rtapi"
+	"github.com/arsentis-games/nakama-common/runtime"
 	"github.com/gofrs/uuid/v5"
-	"github.com/heroiclabs/nakama-common/api"
-	"github.com/heroiclabs/nakama-common/rtapi"
-	"github.com/heroiclabs/nakama-common/runtime"
 	"go.uber.org/zap"
 	"google.golang.org/protobuf/types/known/timestamppb"
 )

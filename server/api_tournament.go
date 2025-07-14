@@ -22,9 +22,9 @@ import (
 	"encoding/json"
 	"time"
 
+	"github.com/arsentis-games/nakama-common/api"
+	"github.com/arsentis-games/nakama-common/runtime"
 	"github.com/gofrs/uuid/v5"
-	"github.com/heroiclabs/nakama-common/api"
-	"github.com/heroiclabs/nakama-common/runtime"
 	"go.uber.org/zap"
 	"google.golang.org/grpc/codes"
 	"google.golang.org/grpc/status"

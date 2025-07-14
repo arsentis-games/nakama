@@ -22,9 +22,9 @@ import (
 	"testing"
 	"time"
 
+	"github.com/arsentis-games/nakama-common/rtapi"
+	"github.com/arsentis-games/nakama-common/runtime"
 	"github.com/gofrs/uuid/v5"
-	"github.com/heroiclabs/nakama-common/rtapi"
-	"github.com/heroiclabs/nakama-common/runtime"
 	"go.uber.org/atomic"
 	"go.uber.org/zap"
 	"go.uber.org/zap/zapcore"

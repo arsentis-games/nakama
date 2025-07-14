@@ -18,8 +18,8 @@ import (
 	"fmt"
 	"strings"
 
+	"github.com/arsentis-games/nakama-common/rtapi"
 	"github.com/gofrs/uuid/v5"
-	"github.com/heroiclabs/nakama-common/rtapi"
 	"go.uber.org/zap"
 )
 

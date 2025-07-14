@@ -17,8 +17,8 @@ package server
 import (
 	"strings"
 
-	"github.com/heroiclabs/nakama-common/api"
-	"github.com/heroiclabs/nakama-common/rtapi"
+	"github.com/arsentis-games/nakama-common/api"
+	"github.com/arsentis-games/nakama-common/rtapi"
 	"go.uber.org/zap"
 )
 

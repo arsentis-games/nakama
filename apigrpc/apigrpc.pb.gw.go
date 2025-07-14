@@ -13,9 +13,9 @@ import (
 	"io"
 	"net/http"
 
+	"github.com/arsentis-games/nakama-common/api"
 	"github.com/grpc-ecosystem/grpc-gateway/v2/runtime"
 	"github.com/grpc-ecosystem/grpc-gateway/v2/utilities"
-	"github.com/heroiclabs/nakama-common/api"
 	"google.golang.org/grpc"
 	"google.golang.org/grpc/codes"
 	"google.golang.org/grpc/grpclog"
